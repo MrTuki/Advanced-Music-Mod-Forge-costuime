@@ -1,0 +1,30 @@
+modLoader="javafml" 
+loaderVersion="[45,)"
+license="MIT"
+issueTrackerURL="https://github.com/simon-mc28/Advanced-Music-Mod-Forge/issues"
+
+[[mods]] 
+modId="advancedmusicmod" 
+version="1.19.4-0.2.0" 
+displayName="Advanced Music Mod" 
+#displayURL="" 
+logoFile="logo.png" 
+#credits="" 
+authors="simon_mc" 
+description='''
+Adds new music discs to Minecraft.
+'''
+
+[[dependencies.advancedmusicmod]] 
+    modId="forge" 
+    mandatory=true 
+    versionRange="[45,)" 
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.advancedmusicmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.4,1.20)"
+    ordering="NONE"
+    side="BOTH"
