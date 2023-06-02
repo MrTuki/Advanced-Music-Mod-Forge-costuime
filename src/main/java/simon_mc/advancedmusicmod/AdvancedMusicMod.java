@@ -39,6 +39,8 @@ public class AdvancedMusicMod {
     private void addCreative(CreativeModeTabEvent.BuildContents event) {
         if (event.getTab() == ModCreativeModeTabs.ADVANCED_MUSIC_MOD_TAB) {
             event.accept(ModItems.MUSIC_DISC_ALICE);
+            event.accept(ModItems.MUSIC_DISC_AUGUST);
+            event.accept(ModItems.MUSIC_DISC_AWAKE);
         }
     }
 

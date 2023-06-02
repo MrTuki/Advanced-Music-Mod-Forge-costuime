@@ -6,5 +6,21 @@
         "stream": true
       }
     ]
+  },
+  "music_disc_august": {
+    "sounds": [
+      {
+        "name": "advancedmusicmod:music_disc_august",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_awake": {
+    "sounds": [
+      {
+        "name": "advancedmusicmod:music_disc_awake",
+        "stream": true
+      }
+    ]
   }
 }

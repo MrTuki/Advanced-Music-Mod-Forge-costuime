@@ -18,6 +18,14 @@ public class ModItems {
             () -> new RecordItem(8, ModSounds.MUSIC_DISC_ALICE,
                     new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 4940));
 
+    public static final RegistryObject<Item> MUSIC_DISC_AUGUST = ITEMS.register("music_disc_august",
+            () -> new RecordItem(8, ModSounds.MUSIC_DISC_AUGUST,
+                    new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 3820));
+
+    public static final RegistryObject<Item> MUSIC_DISC_AWAKE = ITEMS.register("music_disc_awake",
+            () -> new RecordItem(8, ModSounds.MUSIC_DISC_AWAKE,
+                    new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 3280));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

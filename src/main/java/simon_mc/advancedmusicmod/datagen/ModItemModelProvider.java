@@ -17,6 +17,8 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         simpleItem(ModItems.MUSIC_DISC_ALICE);
+        simpleItem(ModItems.MUSIC_DISC_AUGUST);
+        simpleItem(ModItems.MUSIC_DISC_AWAKE);
     }
 
     private void simpleItem(RegistryObject<Item> item) {

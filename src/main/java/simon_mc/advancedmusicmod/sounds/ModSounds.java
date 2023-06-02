@@ -13,6 +13,8 @@ public class ModSounds {
             DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, AdvancedMusicMod.MOD_ID);
 
     public static final RegistryObject<SoundEvent> MUSIC_DISC_ALICE = registerSoundEvent("music_disc_alice");
+    public static final RegistryObject<SoundEvent> MUSIC_DISC_AUGUST = registerSoundEvent("music_disc_august");
+    public static final RegistryObject<SoundEvent> MUSIC_DISC_AWAKE = registerSoundEvent("music_disc_awake");
 
     private static RegistryObject<SoundEvent> registerSoundEvent(String name) {
         ResourceLocation id = new ResourceLocation(AdvancedMusicMod.MOD_ID, name);
