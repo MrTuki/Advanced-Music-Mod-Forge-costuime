@@ -11,6 +11,9 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+import simon_mc.advancedmusicmod.item.ModCreativeModeTabs;
+import simon_mc.advancedmusicmod.item.ModItems;
+import simon_mc.advancedmusicmod.sounds.ModSounds;
 
 @Mod(simon_mc.advancedmusicmod.AdvancedMusicMod.MOD_ID)
 public class AdvancedMusicMod {
@@ -21,6 +24,9 @@ public class AdvancedMusicMod {
     public AdvancedMusicMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModItems.register(modEventBus);
+        ModSounds.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -30,7 +36,11 @@ public class AdvancedMusicMod {
 
     private void commonSetup(final FMLCommonSetupEvent event) {}
 
-    private void addCreative(CreativeModeTabEvent.BuildContents event) {}
+    private void addCreative(CreativeModeTabEvent.BuildContents event) {
+        if (event.getTab() == ModCreativeModeTabs.ADVANCED_MUSIC_MOD_TAB) {
+            event.accept(ModItems.MUSIC_DISC_ALICE);
+        }
+    }
 
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents {

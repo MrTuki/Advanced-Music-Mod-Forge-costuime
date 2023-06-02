@@ -1,0 +1,10 @@
+{
+  "music_disc_alice": {
+    "sounds": [
+      {
+        "name": "advancedmusicmod:music_disc_alice",
+        "stream": true
+      }
+    ]
+  }
+}
