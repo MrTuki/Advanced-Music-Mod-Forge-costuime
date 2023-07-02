@@ -7,13 +7,11 @@ issueTrackerURL="https://github.com/simon-mc28/Advanced-Music-Mod-Forge/issues"
 modId="advancedmusicmod" 
 version="1.19.4-0.2.0" 
 displayName="Advanced Music Mod" 
-#displayURL="" 
+displayURL="https://www.curseforge.com/minecraft/mc-mods/advanced-music-mod"
 logoFile="logo.png" 
-#credits="" 
-authors="simon_mc" 
-description='''
-Adds new music discs to Minecraft.
-'''
+credits="Lucas King"
+authors="moritz_htk"
+description='''Adds new music discs to Minecraft.'''
 
 [[dependencies.advancedmusicmod]] 
     modId="forge" 

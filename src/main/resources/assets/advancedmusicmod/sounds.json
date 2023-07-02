@@ -1,24 +1,24 @@
 {
-  "music_disc_alice": {
+  "music_disc.alice": {
     "sounds": [
       {
-        "name": "advancedmusicmod:music_disc_alice",
+        "name": "advancedmusicmod:records/alice",
         "stream": true
       }
     ]
   },
-  "music_disc_august": {
+  "music_disc.august": {
     "sounds": [
       {
-        "name": "advancedmusicmod:music_disc_august",
+        "name": "advancedmusicmod:records/august",
         "stream": true
       }
     ]
   },
-  "music_disc_awake": {
+  "music_disc.awake": {
     "sounds": [
       {
-        "name": "advancedmusicmod:music_disc_awake",
+        "name": "advancedmusicmod:records/awake",
         "stream": true
       }
     ]
