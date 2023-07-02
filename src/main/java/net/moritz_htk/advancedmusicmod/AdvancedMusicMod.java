@@ -10,9 +10,9 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.moritz_htk.advancedmusicmod.item.ModCreativeModeTabs;
-import net.moritz_htk.advancedmusicmod.item.ModItems;
-import net.moritz_htk.advancedmusicmod.sounds.ModSounds;
+import net.moritz_htk.advancedmusicmod.item.AMMCreativeModeTabs;
+import net.moritz_htk.advancedmusicmod.item.AMMItems;
+import net.moritz_htk.advancedmusicmod.sounds.AMMSoundEvents;
 import org.slf4j.Logger;
 
 @Mod(net.moritz_htk.advancedmusicmod.AdvancedMusicMod.MOD_ID)
@@ -24,8 +24,8 @@ public class AdvancedMusicMod {
     public AdvancedMusicMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModItems.register(modEventBus);
-        ModSounds.register(modEventBus);
+        AMMItems.register(modEventBus);
+        AMMSoundEvents.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -37,10 +37,10 @@ public class AdvancedMusicMod {
     private void commonSetup(final FMLCommonSetupEvent event) {}
 
     private void addCreative(CreativeModeTabEvent.BuildContents event) {
-        if (event.getTab() == ModCreativeModeTabs.ADVANCED_MUSIC_MOD_TAB) {
-            event.accept(ModItems.MUSIC_DISC_ALICE);
-            event.accept(ModItems.MUSIC_DISC_AUGUST);
-            event.accept(ModItems.MUSIC_DISC_AWAKE);
+        if (event.getTab() == AMMCreativeModeTabs.ADVANCED_MUSIC_MOD_TAB) {
+            event.accept(AMMItems.MUSIC_DISC_ALICE);
+            event.accept(AMMItems.MUSIC_DISC_AUGUST);
+            event.accept(AMMItems.MUSIC_DISC_AWAKE);
         }
     }
 

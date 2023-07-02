@@ -7,18 +7,18 @@ import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.RegistryObject;
 import net.moritz_htk.advancedmusicmod.AdvancedMusicMod;
-import net.moritz_htk.advancedmusicmod.item.ModItems;
+import net.moritz_htk.advancedmusicmod.item.AMMItems;
 
-public class ModItemModelProvider extends ItemModelProvider {
-    public ModItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
+public class AMMItemModelProvider extends ItemModelProvider {
+    public AMMItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
         super(output, AdvancedMusicMod.MOD_ID, existingFileHelper);
     }
 
     @Override
     protected void registerModels() {
-        simpleItem(ModItems.MUSIC_DISC_ALICE);
-        simpleItem(ModItems.MUSIC_DISC_AUGUST);
-        simpleItem(ModItems.MUSIC_DISC_AWAKE);
+        simpleItem(AMMItems.MUSIC_DISC_ALICE);
+        simpleItem(AMMItems.MUSIC_DISC_AUGUST);
+        simpleItem(AMMItems.MUSIC_DISC_AWAKE);
     }
 
     private void simpleItem(RegistryObject<Item> item) {

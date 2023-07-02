@@ -11,13 +11,13 @@ import net.moritz_htk.advancedmusicmod.AdvancedMusicMod;
 
 
 @Mod.EventBusSubscriber(modid = AdvancedMusicMod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
-public class ModCreativeModeTabs {
+public class AMMCreativeModeTabs {
     public static CreativeModeTab ADVANCED_MUSIC_MOD_TAB;
 
     @SubscribeEvent
     public static void registerCreativeModeTabs(CreativeModeTabEvent.Register event) {
         ADVANCED_MUSIC_MOD_TAB = event.registerCreativeModeTab(new ResourceLocation(AdvancedMusicMod.MOD_ID, "advanced_music_mod_tab"),
-                builder -> builder.icon(() -> new ItemStack(ModItems.MUSIC_DISC_ALICE.get()))
+                builder -> builder.icon(() -> new ItemStack(AMMItems.MUSIC_DISC_ALICE.get()))
                         .title(Component.literal("Advanced Music Mod")));
     }
 }
