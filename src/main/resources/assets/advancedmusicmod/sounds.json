@@ -1,12 +1,4 @@
 {
-  "music_disc.alice": {
-    "sounds": [
-      {
-        "name": "advancedmusicmod:records/alice",
-        "stream": true
-      }
-    ]
-  },
   "music_disc.august": {
     "sounds": [
       {

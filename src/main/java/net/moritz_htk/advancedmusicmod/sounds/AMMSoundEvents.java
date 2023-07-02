@@ -11,7 +11,6 @@ import net.moritz_htk.advancedmusicmod.AdvancedMusicMod;
 public class AMMSoundEvents {
     public static final DeferredRegister<SoundEvent> SOUND_EVENTS = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, AdvancedMusicMod.MOD_ID);
 
-    public static final RegistryObject<SoundEvent> MUSIC_DISC_ALICE = registerSoundEvent("music_disc.alice");
     public static final RegistryObject<SoundEvent> MUSIC_DISC_AUGUST = registerSoundEvent("music_disc.august");
     public static final RegistryObject<SoundEvent> MUSIC_DISC_AWAKE = registerSoundEvent("music_disc.awake");
 

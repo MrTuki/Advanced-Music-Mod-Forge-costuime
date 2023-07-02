@@ -13,7 +13,6 @@ public class AMMItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-        basicItem(AMMItems.MUSIC_DISC_ALICE.get());
         basicItem(AMMItems.MUSIC_DISC_AUGUST.get());
         basicItem(AMMItems.MUSIC_DISC_AWAKE.get());
     }

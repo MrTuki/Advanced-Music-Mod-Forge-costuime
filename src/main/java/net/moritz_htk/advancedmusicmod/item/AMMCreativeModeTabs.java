@@ -17,7 +17,7 @@ public class AMMCreativeModeTabs {
     @SubscribeEvent
     public static void registerCreativeModeTabs(CreativeModeTabEvent.Register event) {
         ADVANCED_MUSIC_MOD_TAB = event.registerCreativeModeTab(new ResourceLocation(AdvancedMusicMod.MOD_ID, "advanced_music_mod_tab"),
-                builder -> builder.icon(() -> new ItemStack(AMMItems.MUSIC_DISC_ALICE.get()))
+                builder -> builder.icon(() -> new ItemStack(AMMItems.MUSIC_DISC_AUGUST.get()))
                         .title(Component.literal("Advanced Music Mod")));
     }
 }
