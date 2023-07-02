@@ -1,4 +1,4 @@
-package simon_mc.advancedmusicmod.datagen;
+package net.moritz_htk.advancedmusicmod.datagen;
 
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
@@ -6,7 +6,7 @@ import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import simon_mc.advancedmusicmod.AdvancedMusicMod;
+import net.moritz_htk.advancedmusicmod.AdvancedMusicMod;
 
 @Mod.EventBusSubscriber(modid = AdvancedMusicMod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class DataGenerators {

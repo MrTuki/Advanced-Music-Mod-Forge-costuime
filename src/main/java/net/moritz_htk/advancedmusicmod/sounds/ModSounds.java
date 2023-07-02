@@ -1,4 +1,4 @@
-package simon_mc.advancedmusicmod.sounds;
+package net.moritz_htk.advancedmusicmod.sounds;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
@@ -6,7 +6,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import simon_mc.advancedmusicmod.AdvancedMusicMod;
+import net.moritz_htk.advancedmusicmod.AdvancedMusicMod;
 
 public class ModSounds {
     public static final DeferredRegister<SoundEvent> SOUND_EVENTS =

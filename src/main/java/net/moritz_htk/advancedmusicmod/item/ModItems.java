@@ -1,4 +1,4 @@
-package simon_mc.advancedmusicmod.item;
+package net.moritz_htk.advancedmusicmod.item;
 
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
@@ -7,8 +7,8 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import simon_mc.advancedmusicmod.AdvancedMusicMod;
-import simon_mc.advancedmusicmod.sounds.ModSounds;
+import net.moritz_htk.advancedmusicmod.AdvancedMusicMod;
+import net.moritz_htk.advancedmusicmod.sounds.ModSounds;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =

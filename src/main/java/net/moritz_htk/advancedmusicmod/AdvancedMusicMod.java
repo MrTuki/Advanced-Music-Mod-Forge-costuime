@@ -1,4 +1,4 @@
-package simon_mc.advancedmusicmod;
+package net.moritz_htk.advancedmusicmod;
 
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
@@ -10,12 +10,12 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.moritz_htk.advancedmusicmod.item.ModCreativeModeTabs;
+import net.moritz_htk.advancedmusicmod.item.ModItems;
+import net.moritz_htk.advancedmusicmod.sounds.ModSounds;
 import org.slf4j.Logger;
-import simon_mc.advancedmusicmod.item.ModCreativeModeTabs;
-import simon_mc.advancedmusicmod.item.ModItems;
-import simon_mc.advancedmusicmod.sounds.ModSounds;
 
-@Mod(simon_mc.advancedmusicmod.AdvancedMusicMod.MOD_ID)
+@Mod(net.moritz_htk.advancedmusicmod.AdvancedMusicMod.MOD_ID)
 public class AdvancedMusicMod {
 
     public static final String MOD_ID = "advancedmusicmod";

@@ -1,4 +1,4 @@
-package simon_mc.advancedmusicmod.item;
+package net.moritz_htk.advancedmusicmod.item;
 
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -7,7 +7,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.event.CreativeModeTabEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import simon_mc.advancedmusicmod.AdvancedMusicMod;
+import net.moritz_htk.advancedmusicmod.AdvancedMusicMod;
 
 
 @Mod.EventBusSubscriber(modid = AdvancedMusicMod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
