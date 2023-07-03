@@ -15,5 +15,9 @@ public class AMMItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         basicItem(AMMItems.MUSIC_DISC_AUGUST.get());
         basicItem(AMMItems.MUSIC_DISC_AWAKE.get());
+        basicItem(AMMItems.MUSIC_DISC_CRUSH.get());
+        basicItem(AMMItems.MUSIC_DISC_HEDWIG.get());
+        basicItem(AMMItems.MUSIC_DISC_HUMAN.get());
+        basicItem(AMMItems.MUSIC_DISC_JUST_IN_TIME.get());
     }
 }

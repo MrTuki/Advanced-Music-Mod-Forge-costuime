@@ -29,6 +29,10 @@ public class AdvancedMusicMod {
         if (event.getTab() == AMMCreativeModeTabs.ADVANCED_MUSIC_MOD_TAB) {
             event.accept(AMMItems.MUSIC_DISC_AUGUST);
             event.accept(AMMItems.MUSIC_DISC_AWAKE);
+            event.accept(AMMItems.MUSIC_DISC_CRUSH);
+            event.accept(AMMItems.MUSIC_DISC_HEDWIG);
+            event.accept(AMMItems.MUSIC_DISC_HUMAN);
+            event.accept(AMMItems.MUSIC_DISC_JUST_IN_TIME);
         }
     }
 }

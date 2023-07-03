@@ -14,5 +14,37 @@
         "stream": true
       }
     ]
+  },
+  "music_disc.crush": {
+    "sounds": [
+      {
+        "name": "advancedmusicmod:records/crush",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.hedwig": {
+    "sounds": [
+      {
+        "name": "advancedmusicmod:records/hedwig",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.human": {
+    "sounds": [
+      {
+        "name": "advancedmusicmod:records/human",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.just_in_time": {
+    "sounds": [
+      {
+        "name": "advancedmusicmod:records/just_in_time",
+        "stream": true
+      }
+    ]
   }
 }
