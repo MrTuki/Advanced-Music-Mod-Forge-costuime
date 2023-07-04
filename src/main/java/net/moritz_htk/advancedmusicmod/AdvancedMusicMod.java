@@ -33,6 +33,8 @@ public class AdvancedMusicMod {
             event.accept(AMMItems.MUSIC_DISC_HEDWIG);
             event.accept(AMMItems.MUSIC_DISC_HUMAN);
             event.accept(AMMItems.MUSIC_DISC_JUST_IN_TIME);
+            event.accept(AMMItems.MUSIC_DISC_LAPSE);
+            event.accept(AMMItems.MUSIC_DISC_QUIET);
         }
     }
 }

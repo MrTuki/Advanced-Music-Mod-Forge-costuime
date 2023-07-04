@@ -10,5 +10,9 @@
   "item.advancedmusicmod.music_disc_human": "Music Disc",
   "item.advancedmusicmod.music_disc_human.desc": "Lucas King - Human",
   "item.advancedmusicmod.music_disc_just_in_time": "Music Disc",
-  "item.advancedmusicmod.music_disc_just_in_time.desc": "Lucas King - Just In Time"
+  "item.advancedmusicmod.music_disc_just_in_time.desc": "Lucas King - Just In Time",
+  "item.advancedmusicmod.music_disc_lapse": "Music Disc",
+  "item.advancedmusicmod.music_disc_lapse.desc": "Lucas King - Lapse",
+  "item.advancedmusicmod.music_disc_quiet": "Music Disc",
+  "item.advancedmusicmod.music_disc_quiet.desc": "Lucas King - Quiet"
 }

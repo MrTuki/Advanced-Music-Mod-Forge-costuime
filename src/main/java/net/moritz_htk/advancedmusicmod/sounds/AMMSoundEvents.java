@@ -17,6 +17,8 @@ public class AMMSoundEvents {
     public static final RegistryObject<SoundEvent> MUSIC_DISC_HEDWIG = registerSoundEvent("music_disc.hedwig");
     public static final RegistryObject<SoundEvent> MUSIC_DISC_HUMAN = registerSoundEvent("music_disc.human");
     public static final RegistryObject<SoundEvent> MUSIC_DISC_JUST_IN_TIME = registerSoundEvent("music_disc.just_in_time");
+    public static final RegistryObject<SoundEvent> MUSIC_DISC_LAPSE = registerSoundEvent("music_disc.lapse");
+    public static final RegistryObject<SoundEvent> MUSIC_DISC_QUIET = registerSoundEvent("music_disc.quiet");
 
     private static RegistryObject<SoundEvent> registerSoundEvent(String name) {
         ResourceLocation id = new ResourceLocation(AdvancedMusicMod.MOD_ID, name);

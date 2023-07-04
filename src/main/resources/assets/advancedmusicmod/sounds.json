@@ -46,5 +46,21 @@
         "stream": true
       }
     ]
+  },
+  "music_disc.lapse": {
+    "sounds": [
+      {
+        "name": "advancedmusicmod:records/lapse",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.quiet": {
+    "sounds": [
+      {
+        "name": "advancedmusicmod:records/quiet",
+        "stream": true
+      }
+    ]
   }
 }
