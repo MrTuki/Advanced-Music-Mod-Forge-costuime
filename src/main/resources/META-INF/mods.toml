@@ -26,3 +26,6 @@ description='''Adds new music discs to Minecraft.'''
     versionRange="[1.19.4,1.20)"
     ordering="NONE"
     side="BOTH"
+
+[modproperties.advancedmusicmod]
+    catalogueItemIcon="advancedmusicmod:music_disc_august"
