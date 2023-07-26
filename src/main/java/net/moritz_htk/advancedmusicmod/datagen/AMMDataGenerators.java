@@ -17,5 +17,6 @@ public class AMMDataGenerators {
         ExistingFileHelper fileHelper = event.getExistingFileHelper();
 
         generator.addProvider(true, new AMMItemModelProvider(packOutput, fileHelper));
+        generator.addProvider(true, new AMMSoundProvider(packOutput, fileHelper));
     }
 }
