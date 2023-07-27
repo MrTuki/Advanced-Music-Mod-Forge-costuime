@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "advancedmusicmod:item/music_disc_sleep"
+  }
+}

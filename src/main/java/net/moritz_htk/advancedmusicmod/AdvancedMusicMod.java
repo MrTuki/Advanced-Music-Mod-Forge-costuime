@@ -34,7 +34,10 @@ public class AdvancedMusicMod {
             event.accept(AMMItems.MUSIC_DISC_HUMAN);
             event.accept(AMMItems.MUSIC_DISC_JUST_IN_TIME);
             event.accept(AMMItems.MUSIC_DISC_LAPSE);
+            event.accept(AMMItems.MUSIC_DISC_NOT_FAR_NOW);
+            event.accept(AMMItems.MUSIC_DISC_PAIN);
             event.accept(AMMItems.MUSIC_DISC_QUIET);
+            event.accept(AMMItems.MUSIC_DISC_SLEEP);
         }
     }
 }

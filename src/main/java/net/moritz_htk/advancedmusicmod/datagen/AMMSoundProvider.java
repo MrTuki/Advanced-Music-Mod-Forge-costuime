@@ -21,6 +21,9 @@ public class AMMSoundProvider extends SoundDefinitionsProvider {
         add(AMMSoundEvents.MUSIC_DISC_HUMAN, definition().with(sound(new ResourceLocation(AdvancedMusicMod.MOD_ID, "records/human")).stream(true)));
         add(AMMSoundEvents.MUSIC_DISC_JUST_IN_TIME, definition().with(sound(new ResourceLocation(AdvancedMusicMod.MOD_ID, "records/just_in_time")).stream(true)));
         add(AMMSoundEvents.MUSIC_DISC_LAPSE, definition().with(sound(new ResourceLocation(AdvancedMusicMod.MOD_ID, "records/lapse")).stream(true)));
+        add(AMMSoundEvents.MUSIC_DISC_NOT_FAR_NOW, definition().with(sound(new ResourceLocation(AdvancedMusicMod.MOD_ID, "records/not_far_now")).stream(true)));
+        add(AMMSoundEvents.MUSIC_DISC_PAIN, definition().with(sound(new ResourceLocation(AdvancedMusicMod.MOD_ID, "records/pain")).stream(true)));
         add(AMMSoundEvents.MUSIC_DISC_QUIET, definition().with(sound(new ResourceLocation(AdvancedMusicMod.MOD_ID, "records/quiet")).stream(true)));
+        add(AMMSoundEvents.MUSIC_DISC_SLEEP, definition().with(sound(new ResourceLocation(AdvancedMusicMod.MOD_ID, "records/sleep")).stream(true)));
     }
 }

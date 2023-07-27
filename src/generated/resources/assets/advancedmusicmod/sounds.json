@@ -55,10 +55,34 @@
       }
     ]
   },
+  "music_disc.not_far_now": {
+    "sounds": [
+      {
+        "name": "advancedmusicmod:records/not_far_now",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.pain": {
+    "sounds": [
+      {
+        "name": "advancedmusicmod:records/pain",
+        "stream": true
+      }
+    ]
+  },
   "music_disc.quiet": {
     "sounds": [
       {
         "name": "advancedmusicmod:records/quiet",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.sleep": {
+    "sounds": [
+      {
+        "name": "advancedmusicmod:records/sleep",
         "stream": true
       }
     ]

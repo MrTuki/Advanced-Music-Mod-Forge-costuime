@@ -7,6 +7,9 @@
     "advancedmusicmod:music_disc_human",
     "advancedmusicmod:music_disc_just_in_time",
     "advancedmusicmod:music_disc_lapse",
-    "advancedmusicmod:music_disc_quiet"
+    "advancedmusicmod:music_disc_not_far_now",
+    "advancedmusicmod:music_disc_pain",
+    "advancedmusicmod:music_disc_quiet",
+    "advancedmusicmod:music_disc_sleep"
   ]
 }
