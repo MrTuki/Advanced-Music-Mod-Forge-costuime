@@ -2,14 +2,21 @@
   "values": [
     "advancedmusicmod:music_disc_august",
     "advancedmusicmod:music_disc_awake",
+    "advancedmusicmod:music_disc_cattails",
+    "advancedmusicmod:music_disc_cherry_blossom",
     "advancedmusicmod:music_disc_crush",
+    "advancedmusicmod:music_disc_death_of_kings",
     "advancedmusicmod:music_disc_hedwig",
     "advancedmusicmod:music_disc_human",
     "advancedmusicmod:music_disc_just_in_time",
     "advancedmusicmod:music_disc_lapse",
+    "advancedmusicmod:music_disc_midnight_tale",
     "advancedmusicmod:music_disc_not_far_now",
     "advancedmusicmod:music_disc_pain",
     "advancedmusicmod:music_disc_quiet",
-    "advancedmusicmod:music_disc_sleep"
+    "advancedmusicmod:music_disc_screen_saver",
+    "advancedmusicmod:music_disc_sleep",
+    "advancedmusicmod:music_disc_tabuk",
+    "advancedmusicmod:music_disc_with_regards"
   ]
 }

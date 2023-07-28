@@ -29,15 +29,22 @@ public class AdvancedMusicMod {
         if (event.getTab() == AMMCreativeModeTabs.ADVANCED_MUSIC_MOD_TAB) {
             event.accept(AMMItems.MUSIC_DISC_AUGUST);
             event.accept(AMMItems.MUSIC_DISC_AWAKE);
+            event.accept(AMMItems.MUSIC_DISC_CATTAILS);
+            event.accept(AMMItems.MUSIC_DISC_CHERRY_BLOSSOM);
             event.accept(AMMItems.MUSIC_DISC_CRUSH);
+            event.accept(AMMItems.MUSIC_DISC_DEATH_OF_KINGS);
             event.accept(AMMItems.MUSIC_DISC_HEDWIG);
             event.accept(AMMItems.MUSIC_DISC_HUMAN);
             event.accept(AMMItems.MUSIC_DISC_JUST_IN_TIME);
             event.accept(AMMItems.MUSIC_DISC_LAPSE);
+            event.accept(AMMItems.MUSIC_DISC_MIDNIGHT_TALE);
             event.accept(AMMItems.MUSIC_DISC_NOT_FAR_NOW);
             event.accept(AMMItems.MUSIC_DISC_PAIN);
             event.accept(AMMItems.MUSIC_DISC_QUIET);
+            event.accept(AMMItems.MUSIC_DISC_SCREEN_SAVER);
             event.accept(AMMItems.MUSIC_DISC_SLEEP);
+            event.accept(AMMItems.MUSIC_DISC_TABUK);
+            event.accept(AMMItems.MUSIC_DISC_WITH_REGARDS);
         }
     }
 }
