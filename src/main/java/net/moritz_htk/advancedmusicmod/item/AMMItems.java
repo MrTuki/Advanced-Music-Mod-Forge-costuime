@@ -11,8 +11,7 @@ import net.moritz_htk.advancedmusicmod.AdvancedMusicMod;
 import net.moritz_htk.advancedmusicmod.sounds.AMMSoundEvents;
 
 public class AMMItems {
-    public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS, AdvancedMusicMod.MOD_ID);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, AdvancedMusicMod.MOD_ID);
 
     public static final RegistryObject<Item> MUSIC_DISC_AUGUST = ITEMS.register("music_disc_august", () -> new RecordItem(8, AMMSoundEvents.MUSIC_DISC_AUGUST, new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 3820));
     public static final RegistryObject<Item> MUSIC_DISC_CATTAILS = ITEMS.register("music_disc_cattails", () -> new RecordItem(8, AMMSoundEvents.MUSIC_DISC_CATTAILS, new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 3120));

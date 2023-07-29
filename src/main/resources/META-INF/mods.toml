@@ -3,23 +3,22 @@ loaderVersion="[45,)"
 license="moritz_htk Software License Agreement (mSLA)"
 issueTrackerURL="https://github.com/simon-mc28/Advanced-Music-Mod-Forge/issues"
 
-[[mods]] 
+[[mods]]
 modId="advancedmusicmod" 
 version="1.19.4-0.2.0" 
 displayName="Advanced Music Mod" 
 displayURL="https://www.curseforge.com/minecraft/mc-mods/advanced-music-mod"
 logoFile="logo.png" 
-credits="Lucas King"
+credits="https://github.com/simon-mc28/Advanced-Music-Mod-Forge/blob/master/CREDITS.txt"
 authors="moritz_htk"
 description='''Adds new music discs to Minecraft.'''
 
-[[dependencies.advancedmusicmod]] 
+[[dependencies.advancedmusicmod]]
     modId="forge" 
     mandatory=true 
     versionRange="[45,)" 
     ordering="NONE"
     side="BOTH"
-
 [[dependencies.advancedmusicmod]]
     modId="minecraft"
     mandatory=true
