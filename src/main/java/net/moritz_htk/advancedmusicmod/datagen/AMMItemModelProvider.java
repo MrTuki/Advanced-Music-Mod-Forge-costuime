@@ -14,17 +14,13 @@ public class AMMItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         basicItem(AMMItems.MUSIC_DISC_AUGUST.get());
-        basicItem(AMMItems.MUSIC_DISC_AWAKE.get());
         basicItem(AMMItems.MUSIC_DISC_CATTAILS.get());
         basicItem(AMMItems.MUSIC_DISC_CHERRY_BLOSSOM.get());
-        basicItem(AMMItems.MUSIC_DISC_CRUSH.get());
         basicItem(AMMItems.MUSIC_DISC_DEATH_OF_KINGS.get());
         basicItem(AMMItems.MUSIC_DISC_HEDWIG.get());
-        basicItem(AMMItems.MUSIC_DISC_HUMAN.get());
         basicItem(AMMItems.MUSIC_DISC_JUST_IN_TIME.get());
         basicItem(AMMItems.MUSIC_DISC_LAPSE.get());
         basicItem(AMMItems.MUSIC_DISC_MIDNIGHT_TALE.get());
-        basicItem(AMMItems.MUSIC_DISC_NOT_FAR_NOW.get());
         basicItem(AMMItems.MUSIC_DISC_PAIN.get());
         basicItem(AMMItems.MUSIC_DISC_QUIET.get());
         basicItem(AMMItems.MUSIC_DISC_SCREEN_SAVER.get());

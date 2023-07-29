@@ -7,14 +7,6 @@
       }
     ]
   },
-  "music_disc.awake": {
-    "sounds": [
-      {
-        "name": "advancedmusicmod:records/awake",
-        "stream": true
-      }
-    ]
-  },
   "music_disc.cattails": {
     "sounds": [
       {
@@ -31,14 +23,6 @@
       }
     ]
   },
-  "music_disc.crush": {
-    "sounds": [
-      {
-        "name": "advancedmusicmod:records/crush",
-        "stream": true
-      }
-    ]
-  },
   "music_disc.death_of_kings": {
     "sounds": [
       {
@@ -51,14 +35,6 @@
     "sounds": [
       {
         "name": "advancedmusicmod:records/hedwig",
-        "stream": true
-      }
-    ]
-  },
-  "music_disc.human": {
-    "sounds": [
-      {
-        "name": "advancedmusicmod:records/human",
         "stream": true
       }
     ]
@@ -83,14 +59,6 @@
     "sounds": [
       {
         "name": "advancedmusicmod:records/midnight_tale",
-        "stream": true
-      }
-    ]
-  },
-  "music_disc.not_far_now": {
-    "sounds": [
-      {
-        "name": "advancedmusicmod:records/not_far_now",
         "stream": true
       }
     ]
