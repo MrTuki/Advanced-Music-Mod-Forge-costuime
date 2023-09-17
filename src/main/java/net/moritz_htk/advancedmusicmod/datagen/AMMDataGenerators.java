@@ -16,6 +16,7 @@ public class AMMDataGenerators {
         PackOutput packOutput = generator.getPackOutput();
         ExistingFileHelper fileHelper = event.getExistingFileHelper();
 
+        generator.addProvider(true, new AMMGlobalLootModifierProvider(packOutput));
         generator.addProvider(true, new AMMItemModelProvider(packOutput, fileHelper));
         generator.addProvider(true, new AMMSoundProvider(packOutput, fileHelper));
     }

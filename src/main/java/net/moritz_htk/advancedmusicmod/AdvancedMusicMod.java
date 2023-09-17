@@ -7,6 +7,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.moritz_htk.advancedmusicmod.item.AMMCreativeModeTabs;
 import net.moritz_htk.advancedmusicmod.item.AMMItems;
+import net.moritz_htk.advancedmusicmod.loot.AMMLootModifiers;
 import net.moritz_htk.advancedmusicmod.sounds.AMMSoundEvents;
 
 @Mod(net.moritz_htk.advancedmusicmod.AdvancedMusicMod.MOD_ID)
@@ -18,6 +19,7 @@ public class AdvancedMusicMod {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         AMMItems.register(modEventBus);
+        AMMLootModifiers.register(modEventBus);
         AMMSoundEvents.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);

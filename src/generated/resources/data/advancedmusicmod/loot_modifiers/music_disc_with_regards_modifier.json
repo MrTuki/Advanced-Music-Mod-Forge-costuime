@@ -1,0 +1,14 @@
+{
+  "type": "advancedmusicmod:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/simple_dungeon"
+    },
+    {
+      "chance": 0.65,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "advancedmusicmod:music_disc_with_regards"
+}
