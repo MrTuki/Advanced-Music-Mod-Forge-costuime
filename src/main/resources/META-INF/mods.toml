@@ -29,3 +29,4 @@ side="BOTH"
 
 [modproperties."${mod_id}"]
 catalogueItemIcon="advancedmusicmod:music_disc_august"
+catalogueBackground="background.png"
