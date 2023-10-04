@@ -1,7 +1,7 @@
 package net.moritz_htk.advancedmusicmod;
 
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.CreativeModeTabEvent;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -12,12 +12,12 @@ import net.moritz_htk.advancedmusicmod.sounds.AMMSoundEvents;
 
 @Mod(net.moritz_htk.advancedmusicmod.AdvancedMusicMod.MOD_ID)
 public class AdvancedMusicMod {
-
     public static final String MOD_ID = "advancedmusicmod";
 
     public AdvancedMusicMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        AMMCreativeModeTabs.register(modEventBus);
         AMMItems.register(modEventBus);
         AMMLootModifiers.register(modEventBus);
         AMMSoundEvents.register(modEventBus);
@@ -27,8 +27,8 @@ public class AdvancedMusicMod {
         modEventBus.addListener(this::addCreative);
     }
 
-    private void addCreative(CreativeModeTabEvent.BuildContents event) {
-        if (event.getTab() == AMMCreativeModeTabs.ADVANCED_MUSIC_MOD_TAB) {
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if (event.getTabKey() == AMMCreativeModeTabs.ADVANCED_MUSIC_MOD_TAB.getKey()) {
             event.accept(AMMItems.MUSIC_DISC_AUGUST);
             event.accept(AMMItems.MUSIC_DISC_CATTAILS);
             event.accept(AMMItems.MUSIC_DISC_CHERRY_BLOSSOM);
